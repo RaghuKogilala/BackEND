@@ -7,7 +7,7 @@ const bodyParser = require('body-parser')
 const authRouter = require('./routes/authentication')
 const userInfoRouter = require('./routes/userInfo')
 
-
+// creating the server
 const app = express()
 
 app.use((req,res,next) => {
